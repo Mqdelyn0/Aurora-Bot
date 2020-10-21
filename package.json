@@ -1,0 +1,20 @@
+{
+  "name": "aurora-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot of AuroraRealms.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon index.js"
+  },
+  "author": "RonskiYT",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.0",
+    "minecraft-server-util": "^1.4.2",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
