@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, arguments) => {
             listOfChannels.push(channel);
     });
     let sendEmbed = new Discord.MessageEmbed()
-        .setTitle('Demonic Network Information')
+        .setTitle(`${guild.name} Information`)
         .setColor(config.BOT_SETTINGS.EMBED_COLOR)
         .addField('Guild Owner', `${guild.owner}`, true)
         .addField('Guild Created', `${guild.createdAt.toDateString()}`, true)

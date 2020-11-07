@@ -1,0 +1,57 @@
+{
+    "BOT_SETTINGS": 
+    {
+        "TOKEN": "NzYxNDExNTE4ODU5NDQ0MjM0.X3aNvA.0g9s6gzMg9b44S8-_dcViwdJpf8",
+        "GUILDID": "772966508581748786",
+        "COMMAND_PREFIXES": "-",
+        "BOT_CREDITS": "Vanity Bot made by yawyann#0001",
+        "EMBED_COLOR": "#AA00AA",
+        "MONGODB_URL": "mongodb+srv://development:development12345@cluster0.zo769.mongodb.net/AuroraBot?retryWrites=true&w=majority"
+    },
+    "CHANNELS":
+    {
+        "WELCOME_LEAVE": "772975385931415563",
+
+        "SERVERSTATS_ALL": "772975110843269170",
+        "SERVERSTATS_HUMANS": "772975204888608808",
+        "SERVERSTATS_BOTS": "772975145127510047",
+
+        "BOT_SPAM": "772996982381477899",
+
+        "SUGGESTIONS_ACCEPTED":"772983739588018200",
+        "SUGGESTIONS_DENIED":"772983739588018200",
+        "SUGGESTIONS_CREATE":"772982839725654037"
+    },
+    "RANKS":
+    {
+        "ON_JOIN_RANK": "772973727159549953"
+    },
+    "PERMISSIONS":
+    {
+        "MODERATION_COMMANDS":
+        [
+            "772966749830119474",
+            "772966996841070640",
+            "772967226268581908",
+            "772967228261924945",
+            "772967453226958869",
+            "772967454249844747",
+            "772967461929615382",
+            "772967470407483392"
+        ],
+        "ADMINISTRAION_COMMANDS": 
+        [
+            "772966749830119474",
+            "772966996841070640",
+            "772967226268581908",
+            "772967228261924945",
+            "772967453226958869"
+        ],
+        "SUPPORT_ROLE": "774412118651961374"
+    },
+    "MESASGES":
+    {
+        "NO_PERM": "You don't have permission to do this!",
+        "NOT_ENOUGH_ARGS": "You don't have enough arguments in your command"
+    }
+}

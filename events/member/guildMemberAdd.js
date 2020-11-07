@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const config = require('../../config.json');
 
 module.exports = async (bot, member) => {
+    console.log("pog");
     let guild = bot.guilds.cache.get(config.BOT_SETTINGS.GUILDID);
     let channel = bot.channels.cache.get(config.CHANNELS.WELCOME_LEAVE);
     let role = guild.roles.cache.find(role => role.id === `${config.RANKS.ON_JOIN_RANK}`);
@@ -15,6 +16,5 @@ module.exports = async (bot, member) => {
     bot.channels.cache.get(config.CHANNELS.SERVERSTATS_ALL).setName(`Total Members: ${guild.members.cache.size}`);
     bot.channels.cache.get(config.CHANNELS.SERVERSTATS_BOTS).setName(`Total Bots: ${guild.members.cache.filter(member => member.user.bot).size}`);
     bot.channels.cache.get(config.CHANNELS.SERVERSTATS_HUMANS).setName(`Total Gamers: ${guild.members.cache.filter(member => !member.user.bot).size}`);
-    member.setNickname(`${member.user.username} | ${role.name}`);
     channel.send(sendEmbed);
 }

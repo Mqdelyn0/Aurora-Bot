@@ -18,11 +18,9 @@ module.exports = async (bot, oldMember, newMember) => {
     });
     if(removedRoles.length >= 1) {
         bot.logMessage.log('INFO', `${removedRoles[0].name} has been removed from ${newMember.user.tag}!`);
-        newMember.setNickname(`${newMember.user.username} | ${newMember.roles.cache.first().name}`);
         return;
     } else if(addedRoles.length >= 1) {
         bot.logMessage.log('INFO', `${addedRoles[0].name} has been added to ${newMember.user.tag}!`);
-        newMember.setNickname(`${newMember.user.username} | ${addedRoles[0].name}`);
         return;
     }
 }
