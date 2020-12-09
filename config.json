@@ -1,12 +1,12 @@
 {
     "BOT_SETTINGS": 
     {
-        "TOKEN": "NzYxNDExNTE4ODU5NDQ0MjM0.X3aNvA.0g9s6gzMg9b44S8-_dcViwdJpf8",
+        "TOKEN": "no token for you lmao",
         "GUILDID": "772966508581748786",
         "COMMAND_PREFIXES": "-",
         "BOT_CREDITS": "Vanity Bot made by yawyann#0001",
         "EMBED_COLOR": "#AA00AA",
-        "MONGODB_URL": "mongodb+srv://development:development12345@cluster0.zo769.mongodb.net/AuroraBot?retryWrites=true&w=majority"
+        "MONGODB_URL": "no mongodb for you lmao"
     },
     "CHANNELS":
     {
